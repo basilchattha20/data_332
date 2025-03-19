@@ -25,7 +25,6 @@ deck[1:2, 1, drop = TRUE]
 
 deck[1:2,1,drop = FALSE]
 
-
 deck[-(2:52),1:3]
 
 deck[c(-1,1),1]
