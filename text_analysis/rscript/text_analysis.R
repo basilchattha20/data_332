@@ -36,7 +36,7 @@ word_counts <- tidy_text %>%
   dplyr::count(word) %>%  # Count occurrences of each word
   dplyr::arrange(dplyr::desc(n))  # Sort by frequency, most frequent words first
 
-# Filter words that appear more than 75,000 times and prepare them for plotting
+# Filter words that appear more than 25,000 times and prepare them for plotting
 word_counts %>% 
   dplyr::filter(n > 25000) %>%  # Keep only words with more than 25,000 occurrences
   dplyr::mutate(word = factor(word, levels = word[order(n)])) %>%  # Reorder words based on frequency
