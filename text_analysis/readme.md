@@ -78,8 +78,11 @@ nrc_sentiment %>%
   coord_flip() +
   theme_minimal() +
   ggtitle("Sentiment Analysis using NRC")
-<!-- Placeholder for image -->
 ```
+<div align = "center">
+<img src = "https://github.com/basilchattha20/data_332/blob/main/text_analysis/dbc05424-3aa8-4dc6-9ab0-c72b0b72d16f.png" width = "450")>
+</div>
+
 ### 6. Word Cloud Visualization
 Generate a word cloud to visualize the most frequent words in the dataset:
 ```r
