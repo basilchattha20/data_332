@@ -13,8 +13,9 @@ This project focuses on performing sentiment analysis on consumer complaint data
 ### Prerequisites
 Make sure you have the following libraries installed in your R environment:
 ```r
-install.packages("tidyverse")
-install.packages("tm")
-install.packages("wordcloud")
-install.packages("RColorBrewer")
-install.packages("tidytext")
+library(tidyverse)
+library(tidytext)
+library(wordcloud)
+library(tm)
+library(ggplot2)
+library(scales)
