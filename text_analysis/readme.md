@@ -80,7 +80,7 @@ nrc_sentiment %>%
   ggtitle("Sentiment Analysis using NRC")
 ```
 <div align = "center">
-<img src = "https://github.com/basilchattha20/data_332/blob/main/text_analysis/dbc05424-3aa8-4dc6-9ab0-c72b0b72d16f.png" width = "450")>
+<img src = "https://github.com/basilchattha20/data_332/blob/main/text_analysis/de213a82-af55-4df0-83d2-5822d0294344.png" width = "450")>
 </div>
 
 ### 6. Word Cloud Visualization
@@ -92,8 +92,11 @@ wordcloud(words = word_freq$word,
           freq = word_freq$n, 
           max.words = 100, 
           colors = brewer.pal(8, "Dark2"))
-<!-- Placeholder for image -->
 ```
+<div align = "center">
+<img src = "https://github.com/basilchattha20/data_332/blob/main/text_analysis/dbc05424-3aa8-4dc6-9ab0-c72b0b72d16f.png" width = "450")>
+</div>
+
 ## Results
 
 ### Sentiment Distribution:
