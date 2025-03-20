@@ -93,7 +93,7 @@ wordcloud(words = word_freq$word,
 ### Sentiment Distribution:
 The Bing lexicon categorizes words as either "positive" or "negative." The bar plot shows the distribution of sentiments in the consumer complaints.
 ### Emotional Sentiment (NRC):
-The NRC lexicon classifies words into multiple emotional categories like "joy," "anger," "fear," etc. The horizontal bar plot illustrates the frequency of each sentiment type in the dataset.
+The NRC lexicon classifies words into multiple emotional categories like "trust", "disgust", "joy," "anger," "fear," etc. The horizontal bar plot illustrates the frequency of each sentiment type in the dataset.
 ### Frequent Terms:
 The word cloud displays the most frequently occurring words in the complaint narratives, providing insights into the common themes in the complaints.
 
