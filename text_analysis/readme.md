@@ -60,7 +60,7 @@ bing_sentiment %>%
   theme_minimal() +
   ggtitle("Sentiment Analysis using Bing") +
   scale_y_continuous(labels = scales::comma)
-<!-- Placeholder for image -->
+<img src = "https://github.com/basilchattha20/data_332/blob/main/text_analysis/17a5b22b-e120-4989-96f0-ec963c60ad63.png" width = "450")>
 ```
 ### 5. Sentiment Analysis (NRC Lexicon)
 Perform sentiment analysis using the NRC lexicon:
