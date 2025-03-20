@@ -19,3 +19,24 @@ library(wordcloud)
 library(tm)
 library(ggplot2)
 library(scales)
+```
+## Steps to Run
+
+### 1. Load Required Libraries
+```r
+library(tidyverse)
+library(tidytext)
+library(wordcloud)
+library(tm)
+library(ggplot2)
+library(scales)
+```
+
+### 2. Clean the Data
+Ensure your data is in a tidy format, remove null values, and convert text to lowercase.
+```r
+df_clean <- df %>% 
+  select(Consumer.complaint.narrative) %>% 
+  filter(!is.na(Consumer.complaint.narrative)) %>% 
+  mutate(Consumer.complaint.narrative = str_to_lower(Consumer.complaint.narrative))
+````
